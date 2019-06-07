@@ -1,10 +1,17 @@
 // Mixins Here
 
-
-
-
-.position (@j,@a) {
+.center-flex {
   display: flex;
-  justify-content: @j;
-  align-items: @a;
+  justify-content: center;
 }
+
+.none {
+  display: none;
+}
+
+.btn-style (@clr, @w, @r, @p) {
+  background-color: @clr;
+  width: @w;
+  border-radius: @r;
+  padding: @p;
+  }
