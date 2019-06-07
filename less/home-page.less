@@ -11,7 +11,7 @@
     p {
       padding:0 15px;
     }
-  
+
   }
 
   .space-images {
@@ -58,13 +58,27 @@
       }
 
       .btn {
+          width: 25%;
+          color: white;
+          font-size: 1.5rem;
+          background-color: @btn-bg-color;
+          border-radius: 5px;
+          padding: 7px;
+          display: flex;
+          justify-content: center;
+
+          @media @phone {
+          background-color: @btn-bg-color;
+          width: 90%;
+          }
+
       }
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
-      
+
       img {
         width: 100%;
         height: auto;
