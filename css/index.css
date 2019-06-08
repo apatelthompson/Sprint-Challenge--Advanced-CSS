@@ -313,7 +313,7 @@ footer {
   justify-content: center;
   cursor: pointer;
 }
-.home .walk .walk-text .btn .btn:hover {
+.home .walk .walk-text .btn:hover {
   background-color: #F6F7F8;
   color: #22283A;
 }
@@ -325,7 +325,7 @@ footer {
     padding: 20px;
     cursor: pointer;
   }
-  .home .walk .walk-text .btn .btn:hover {
+  .home .walk .walk-text .btn:hover {
     background-color: #F6F7F8;
     color: #22283A;
   }
