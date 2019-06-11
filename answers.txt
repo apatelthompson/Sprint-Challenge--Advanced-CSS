@@ -1,0 +1,19 @@
+1. What is the difference between an adaptive website and a fully responsive website?
+Adaptive websites are designed with specific screen sizes/viewports in mind vs. responsive websites adapt to the size of the screen. Adaptive is less flexible and can be hard to anticipate for all the necessary screen sizes. Building responsive websites makes sure the design will work at all of the possible sizes.
+
+
+2. Describe what it means to be mobile first vs desktop first.
+Being mobile first means that  you design for mobile first and then scale up to bigger viewport sizes. It’s used in particular for programs/apps etc that are run on phones primarily vs. desktop applications. Designing for mobile first usually means design with simplify in mind to have the most important things easily accessible for people on the go and smaller screens.
+
+
+3. What does font-size: 62.5%in the html tag do for us when using rem units?
+It makes the math easier by essentially making the font size 10px (because otherwise it’s 16px and just harder to calculate).
+
+
+
+4. How would you describe preprocessing to someone new to CSS?
+Preprocesing both super powers CSS but also makes it so much more organized and accessible to navigate. From Importing which creates nice organized lists to nesting media queries within the element you’re working on, to mixins which allow you to create rules that can be used (and changed) so much more efficiently.
+
+
+5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+I loved just simple mixins! When I find myself repeating the same styling components, I go create a mixin and it’s magical how easy it is to apply more complex styling without doing it individually.
